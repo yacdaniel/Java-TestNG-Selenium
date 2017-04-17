@@ -1,5 +1,5 @@
 box: maven:latest
 build:
   steps:
-    - yacdaniel/maven:
+    - xenoterracide/maven:
         goals: test
