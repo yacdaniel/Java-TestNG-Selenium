@@ -32,7 +32,7 @@ public class TestBase implements SauceOnDemandSessionIdProvider, SauceOnDemandAu
 
     public String seleniumURI = "@ondemand.saucelabs.com:443";
 
-    public String buildTag = System.getenv("BUILD_TAG");
+    public String buildTag = "testing";
 
     public String username = System.getenv("SAUCE_USERNAME");
 
